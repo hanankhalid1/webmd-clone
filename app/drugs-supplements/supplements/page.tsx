@@ -65,7 +65,7 @@ const page = () => {
           <IconGrid icons={icons} />
           <TopMedications
             title="Top Searched Medications"
-            items={medications.map((item) => ({ name: item.name }))}
+            items={medications.map((item) => ({ name: item.name, slug: item.slug }))}
             bgColor="#edfbf7"
           />
         </div>
